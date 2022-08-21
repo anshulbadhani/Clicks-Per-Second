@@ -1,3 +1,5 @@
+// Author : anshulbadhani
+
 let clicks = 0;
 let clickss = String(clicks);
 clickcounter = document.querySelectorAll(".clickCount")[0]
