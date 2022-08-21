@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS COUNTER</title>
+
+    <style>
+        body{
+            background: #413f3f;
+        }
+        .clickCount{
+            color: white;
+            border: 2px solid whitesmoke;
+            text-align: center;
+            padding: 10em 0px 12em 0px;
+        }
+
+        .heading{
+            color: white;
+            text-align: center;
+        }
+
+        .clicks{
+            color: white;
+            text-align: center;
+            padding-top: 5em;
+        }
+
+        .num{
+            color: white;
+            font-weight: 900;
+            font-size: 5em;
+        }
+    </style>
+
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <h1 class="heading">CLICK BELOW TO CHECK YOUR CPS</h1>
+    <div class="clickCount" onmouseup=setClickAndIncreaseCount()>
+        <div class="clicks">
+            <span>You have clicked:</span>
+            <h1 class="num">0</h1>
+            <span>Times</span>
+        </div>
+    </div>
+</body>
+</html>
